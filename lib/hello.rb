@@ -1,7 +1,5 @@
 def hello_t(welcome)
- welcome = []
- welcome << "hi"
- welcome.each do |name|
+ welcome = ["Tim","Tom","Jim"].each do |name|
 puts "#{name}"
 end
 
