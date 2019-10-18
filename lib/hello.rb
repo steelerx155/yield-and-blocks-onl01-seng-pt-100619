@@ -1,5 +1,5 @@
 def hello_t(names)
- names = [ ].each do |name|
+ names = ["Tim","Tom","Jim"].each do |name|
 puts "#{name}"
 end
 
