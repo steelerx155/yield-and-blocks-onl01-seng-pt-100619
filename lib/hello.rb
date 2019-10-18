@@ -1,7 +1,10 @@
 def hello_t(names)
- names = ["Tim","Tom","Jim"].each do |name|
-   puts "#{name}"
+i = 0 
+
+while i < names.length 
+  yield(names[i])
+  i = i + 1
 end
 
-# call your method here!
+names
 end
