@@ -2,6 +2,7 @@ def hello_t(names)
  i = 0
  
  while i < names.lenght
+ yield names[i]
  i = i + 1
  
 end
