@@ -1,5 +1,7 @@
+require 'pry'
 def hello_t(names)
  names = ["Tim","Tom","Jim"].each do |name|
+   binding.pry
 puts "#{name}"
 end
 
