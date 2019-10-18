@@ -1,5 +1,5 @@
-def hello_t(names)
- # call your method here!
+def hello_t
+
 end
 
 hello_t(["Tim", "Tom", "Jim"]) do |name|
